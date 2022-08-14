@@ -52,7 +52,7 @@ const getData = () => {
     // console.log(randomNum);
 
 
-    console.log(jsData[randomNum].info);
+    // console.log(jsData[randomNum].info);
 
     section.innerHTML = jsData[randomNum].info;
 
@@ -80,7 +80,7 @@ const getData = () => {
 //   });
 // }
 
-console.log(jsData.length);
+// console.log(jsData.length);
 
 
 btn.addEventListener('click', getData);

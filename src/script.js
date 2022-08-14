@@ -44,7 +44,7 @@ var getData = function () {
     var dataLength = jsData.length;
     var randomNum = Math.floor((Math.random()) * dataLength);
     // console.log(randomNum);
-    console.log(jsData[randomNum].info);
+    // console.log(jsData[randomNum].info);
     section.innerHTML = jsData[randomNum].info;
     // jsData.map((item: any) => {
     //     console.log(item.info);
@@ -64,5 +64,5 @@ var getData = function () {
 //     gravity: 0.1
 //   });
 // }
-console.log(jsData.length);
+// console.log(jsData.length);
 btn.addEventListener('click', getData);
